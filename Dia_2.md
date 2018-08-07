@@ -81,3 +81,11 @@ A grande parte dos programas podem exibir os padrões de uso `usage`, para exibi
 ###### Exemplo:
 
 `blastn --help`
+
+Use blastn para ver os maths:
+
+`blastn -db "nomeDB" -query sua_query.fasta -outfmt '6 sseqid sseq'`
+
+Os especificadores de saída acima (sseqid sseq) retornam o identificador de sequência e a parte alinhada das sequências no banco de dados que correspondem à sequência de consulta. Você vai notar que isso está perto de um formato rápido, mas não é bem assim. Podemos passar os resultados de nossa pesquisa do BLAST para alguns comandos unix para salvar a saída no formato de um arquivo fasta.
+
+`blastn -db flavusDB -query Clunata.tef.fasta -outfmt '6 sseqid sseq' |  awk 'BEGIN{FS="\t"; OFS="\n"}{gsub(/-/, "", $2); print "> Aflavus.tef."$1,$2}'`
