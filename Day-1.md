@@ -37,10 +37,8 @@ Responda as seguintes questões:
 - [ ] Qual é o comprimento da sequência?
 - [ ] Quantos gêneros e espécies estão representados nos 10 melhores *hits*?
 - [ ] Qual porcentagem da nossa sequência de consulta está alinhada com a correspondência superior?
-- [ ] Qual porcentagem de nucleotídeos é idêntica à top match?
+- [ ] Qual porcentagem de nucleotídeos é idêntica à *top match*?
 - [ ] Quantas das 10 melhores correspondências não são idênticas ao longo do comprimento da sequência de consulta?
 - [ ] Qual é a probabilidade de você encontrar a mesma correspondência no banco de dados de sequências aleatórias do banco de dados atual do GenBank, dado o tamanho da sequência de consulta?
-- [ ] Qual posição do nucleotídeo na seqüência de consulta é a incompatibilidade com Curvularia chiangmaiensis cepa CPC 28829?
-- [ ] De qual hospedeiro foi coletada a cepa de Curvularia chiangmaiensis CPC 28829?
 - [ ] Esta sequência é publicada? Onde?
-- [ ] O top match é publicado? Onde?
+- [ ] O *top match* está publicado? Onde?
