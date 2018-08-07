@@ -45,7 +45,7 @@ Responda as seguintes questões:
 
 Consulte o GenBank com as mesmas sequências e responda às seguintes perguntas:
 1. Que região do genoma esta sequência representa?
-2. Esta é uma sequência de codificação ou não?
-3. Quantas espécies são representadas nos 15 melhores jogos? Todos eles têm a mesma identidade de sequência com a sequência de consulta?
-4. Os dois primeiros jogos são publicados?
+2. Esta é uma sequência codificante?
+3. Quantas espécies são representadas nos 15 melhores *hits*? Todos eles têm a mesma identidade de sequência com a sequência de consulta?
+4. Os dois primeiros *hits* são publicados?
 5. Qual é o número de acesso do GenBank para o melhor resultado?
