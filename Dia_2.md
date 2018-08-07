@@ -56,3 +56,22 @@ Agora, para redirecionar a saída do padrão para um arquivo com >>
 ---
 Às vezes, você precisará recuperar dados locus individuais de sequências genômicas inteiras que estão disponíveis publicamente. Para fazer isso, você pode usar uma sequência homóloga para recuperar dados do genoma, configurando seu próprio banco de dados BLAST local.
 
+Para instalar o `Blast` digite no terminal:
+
+`sudo apt-get install ncbi-blast+`
+
+Faça o download do(s) genoma(s) os quais vamos recuperar sequências por similaridade:
+
+`wget ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/006/275/GCF_000006275.2_JCVI-afl1-v2.0/código.versão.isolado.genomic.fna.gz`
+
+`gzip -d código.versão.isolado.genomic.fna.gz`
+
+## Construa o banco de dados do BLAST
+---
+`makeblastdb -in código.versão.isolado.genomic.fna.gz -out "nomeDB -dbtype nucl`
+
+A grande parte dos programas podem exibir os padrões de uso `usage`, para exibi-los digite o nome do programa em seguida `-h` ou `--help`
+
+###### Exemplo:
+
+`blastn --help`
