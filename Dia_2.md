@@ -88,4 +88,9 @@ Use blastn para ver os maths:
 
 Os especificadores de saída acima (sseqid sseq) retornam o identificador de sequência e a parte alinhada das sequências no banco de dados que correspondem à sequência de consulta. Você vai notar que isso está perto de um formato rápido, mas não é bem assim. Podemos passar os resultados de nossa pesquisa do BLAST para alguns comandos unix para salvar a saída no formato de um arquivo fasta.
 
-`blastn -db flavusDB -query Clunata.tef.fasta -outfmt '6 sseqid sseq' |  awk 'BEGIN{FS="\t"; OFS="\n"}{gsub(/-/, "", $2); print "> Aflavus.tef."$1,$2}'`
+`blastn -db "nome"DB -query sua_query.fasta -outfmt '6 sseqid sseq' |  awk 'BEGIN{FS="\t"; OFS="\n"}{gsub(/-/, "", $2); print "> nome_do_gênero"$1,$2}'`
+
+Existem várias ferramentas de blast que são instaladas com o ncbi-blast +, incluindo blastn e blastp. Para ver todos os comandos que estão disponíveis digite no terminal: `blastn -h`
+
+Para ver descrições detalhadas de cada comando e as opções:`blastn -help`
+Você também pode ver as opções e especificar especificadores [aqui](https://www.ncbi.nlm.nih.gov/books/NBK279684/).
