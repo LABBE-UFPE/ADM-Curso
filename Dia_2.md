@@ -25,7 +25,9 @@ Você pode encontrar mais informações sobre campos de pesquisa [aqui](https://
 ---
 Agora vamos repetir o exercício acima usando E-utilities, a interface de programação de aplicativos (API) para o GenBank. Você pode ler mais sobre isso [aqui](https://www.ncbi.nlm.nih.gov/books/NBK179288/).  
 
-Instalando `e-search:`
+Instalando `e-search` No terminal digite:
+
+`sudo apt-get install ncbi-entrez-direct`
 
 Recupere sequências do GenBank no formato fasta
 
