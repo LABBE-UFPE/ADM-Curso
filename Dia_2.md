@@ -62,7 +62,7 @@ Para instalar o `Blast` digite no terminal:
 
 Faça o download do(s) genoma(s) os quais vamos recuperar sequências por similaridade:
 
-`wget ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/006/275/GCF_000006275.2_JCVI-afl1-v2.0/código.versão.isolado.genomic.fna.gz`
+`wget ftp://ftp.ncbi.nlm.nih.gov/genomes/all/path/to/código.versão.isolado.genomic.fna.gz`
 
 `gzip -d código.versão.isolado.genomic.fna.gz`
 
