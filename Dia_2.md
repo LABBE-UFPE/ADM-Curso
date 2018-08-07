@@ -80,7 +80,7 @@ A grande parte dos programas podem exibir os padrões de uso `usage`, para exibi
 
 ###### Exemplo:
 
-`blastn --help`
+`blastn mafft -h`
 
 Use blastn para ver os maths:
 
