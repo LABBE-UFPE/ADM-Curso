@@ -1,5 +1,5 @@
 # ADM-Curso
-###### Dia_1
+###### Dia 1
 ---
 Se você estiver usando um sistema operacional Windows, lembre-se de salvar todos os arquivos na unidade USB externa, porque nós iniciaremos o Linux Ubuntu mais tarde e você precisará acessar os arquivos que estão na sua unidade USB.
 
