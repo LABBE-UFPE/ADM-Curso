@@ -14,7 +14,7 @@ Voltaremos aos arquivos acima, mas vamos pensar novamente sobre a questão que e
 
 Tente a seguinte pesquisa para limitar a sua pesquisa:
 
-Exemplo: sequências de Colletotrichum em "*Cucumis melo*" no Japão: `Colletotrichum[organism] AND Japan[country] AND Cucumis[host]`
+Exemplo: sequências de *Colletotrichum* em "*Cucumis melo*" no Japão: `Colletotrichum[organism] AND Japan[country] AND Cucumis[host]`
 
 Você pode encontrar mais informações sobre campos de pesquisa [aqui](https://www.ncbi.nlm.nih.gov/books/NBK49540/) e os campos de pesquisa e qualificadores disponíveis [aqui](https://www.ncbi.nlm.nih.gov/entrez/query/static/help/Summary_Matrices.html#Search_Fields_and_Qualifiers).  
 
