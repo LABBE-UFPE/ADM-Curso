@@ -1,3 +1,6 @@
 # ADM-Curso
 
-## dia 3
+## Dia 3
+
+# Alinhando sequências de nucleotídeos
+---
