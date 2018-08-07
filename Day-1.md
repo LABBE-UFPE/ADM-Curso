@@ -1,5 +1,5 @@
 # MDA-Curso
-* Day1
+###### Day1
 
 Se você estiver usando um sistema operacional Windows, lembre-se de salvar todos os arquivos na unidade USB externa, porque nós iniciaremos o Linux Ubuntu mais tarde e você precisará acessar os arquivos que estão na sua unidade USB.
 
@@ -7,7 +7,8 @@ Comece fazendo um diretório em seu drive USB chamado MDA-Course. Crie outro dir
 
 Para criar um diretório no ubuntu faça:
 
-mkdir /media/ubuntu/"driver_name"/MDA-course && mkdir /media/ubuntu/"Driver_name"/MDA-course/day1-Practical
+`mkdir /media/ubuntu/"driver_name"/MDA-course && mkdir /media/ubuntu/"Driver_name"/MDA-course/day1-Practical`
 
-mkdir = Make directory "Cria um novo diretório"
-&& = adiciona uma nova tarefa
+`mkdir` = Make directory "Cria um novo diretório"
+
+`&&` = adiciona uma nova tarefa
