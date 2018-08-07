@@ -70,6 +70,12 @@ Faça o download do(s) genoma(s) os quais vamos recuperar sequências por simila
 ---
 `makeblastdb -in código.versão.isolado.genomic.fna.gz -out "nomeDB -dbtype nucl`
 
+Você pode criar um banco com quantas sequências desejar, porém para montá-lo deve-se unir os arquivos fasta, para fazer isso podemos usar o comando `cat`
+
+###### exemplo:
+
+`cat 1.fasta 2.fasta 3.fasta > 6.fasta`
+
 A grande parte dos programas podem exibir os padrões de uso `usage`, para exibi-los digite o nome do programa em seguida `-h` ou `--help`
 
 ###### Exemplo:
