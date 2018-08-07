@@ -1,2 +1,0 @@
-# MDA-Curso
-Day1
